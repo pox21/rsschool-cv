@@ -1,1 +1,1 @@
-# rsschool-cv
+# initial cv task
