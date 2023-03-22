@@ -20,3 +20,16 @@ I know that my ability to learn and acquire new skills will help me become an ex
 
 ---
 
+### Skills and Proficiency:
+
+- HTML5, CSS3
+- PUG, SASS/SCSS
+- JavaScript, PHP, Java(basic)
+- Vue JS, Laravel(basic)
+- Git, GitHub
+- Webpack, Vitejs
+- VS Code, IntelliJ IDEA, PhpStorm
+- Figma, Photoshop
+
+---
+
