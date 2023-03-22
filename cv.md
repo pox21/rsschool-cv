@@ -35,22 +35,16 @@ I know that my ability to learn and acquire new skills will help me become an ex
 
 ### Code example:
 
-**Peak array index KATA from CODEWARS:**
-*Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.*
+**Spin words KATA from CODEWARS:**
+*Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.*
 
 ```javascript
-function peak(arr) {
-
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }
-  return -1;
+const spinWords = (string) => {
+  return string.split(" ").map(
+    item => item.length > 4 ? Array.from(item).reverse().join("") : item).join(" ");
 }
 ```
+
 ---
 
 ### Courses:
